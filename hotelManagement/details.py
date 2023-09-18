@@ -19,7 +19,7 @@ class DetailsRoom:
         lbl_title.place(x=0,y=0,width=1295,height=50)
 
         #logo-------------------------------------------------------------------------
-        img2=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\php&python\python\hotelManagement\images\logohotel.png")
+        img2=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\phpAndpython\python\hotelManagement\images\logohotel.png")
         img2=img2.resize((100,40), PIL.Image.Resampling.LANCZOS)
         self.photimg2=ImageTk.PhotoImage(img2)
 

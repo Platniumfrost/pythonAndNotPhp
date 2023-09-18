@@ -12,7 +12,7 @@ class HotelManagementSystem:
         self.root.geometry("1550x800+0+0")
 
         # ist img----------------------------------------------------------------------
-        img1=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\php&python\python\hotelManagement\images\hotel1.png")
+        img1=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\phpAndpython\python\hotelManagement\images\hotel1.png")
         img1=img1.resize((1550,140), PIL.Image.Resampling.LANCZOS)
         self.photimg1=ImageTk.PhotoImage(img1)
 
@@ -20,7 +20,7 @@ class HotelManagementSystem:
         lblimg.place(x=0,y=0,width=1550,height=140)
 
         #logo-------------------------------------------------------------------------
-        img2=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\php&python\python\hotelManagement\images\logohotel.png")
+        img2=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\phpAndpython\python\hotelManagement\images\logohotel.png")
         img2=img2.resize((230,140), PIL.Image.Resampling.LANCZOS)
         self.photimg2=ImageTk.PhotoImage(img2)
 
@@ -54,7 +54,7 @@ class HotelManagementSystem:
 
         #right side image-----------------------------------------------------------
 
-        img3=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\php&python\python\hotelManagement\images\slide3.jpg")
+        img3=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\phpAndpython\python\hotelManagement\images\slide3.jpg")
         img3=img3.resize((1310,590), PIL.Image.Resampling.LANCZOS)
         self.photimg3=ImageTk.PhotoImage(img3)
 
@@ -63,14 +63,14 @@ class HotelManagementSystem:
 
         #down images------------------------------------------------------------------
 
-        img4=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\php&python\python\hotelManagement\images\myh.jpg")
+        img4=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\phpAndpython\python\hotelManagement\images\myh.jpg")
         img4=img4.resize((230,210), PIL.Image.Resampling.LANCZOS)
         self.photimg4=ImageTk.PhotoImage(img4)
 
         lblimg1=Label(main_frame,image=self.photimg4,bd=4,relief=RIDGE)
         lblimg1.place(x=0,y=225,width=230,height=210)
 
-        img5=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\php&python\python\hotelManagement\images\khana.jpg")
+        img5=Image.open(r"C:\Users\clocksmith\Documents\moreTechProjects\phpAndpython\python\hotelManagement\images\khana.jpg")
         img5=img5.resize((230,190), PIL.Image.Resampling.LANCZOS)
         self.photimg5=ImageTk.PhotoImage(img5)
 
